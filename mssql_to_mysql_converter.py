@@ -1,8 +1,8 @@
 import re
-import sys
+#import sys #debugging purpose
 
-print("\033[31mCheck code first before execute\033[0m")  # Red
-sys.exit()  # Stops execution
+#print("\033[31mCheck code first before execute\033[0m")  # Red
+#sys.exit()  # Stops execution
 
 def convert_mssql_to_mysql(schema):
     """
